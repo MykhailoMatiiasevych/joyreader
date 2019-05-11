@@ -1,0 +1,6 @@
+.joyreader .post_content {
+    max-height: 100% !important;
+}
+.joyreader .post_content_expand {
+    display: none !important;
+}

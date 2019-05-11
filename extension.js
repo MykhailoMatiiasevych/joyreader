@@ -1,1 +1,2 @@
-browser.browserAction.onClicked.addListener(tab => browser.tabs.sendMessage(tab.id, "revert"));
+const env = chrome || browser;
+env.browserAction.onClicked.addListener(tab => env.tabs.sendMessage(tab.id, "revert"));

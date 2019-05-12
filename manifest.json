@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Joyreader",
-  "version": "1.2",
+  "version": "1.2.0",
   "author": "Mykhailo Matiiasevych",
   "homepage_url": "https://github.com/MykhailoMatiiasevych/joyreader",
   "description": "Reverse post order on Joyreactor to make it easier to read sets of posts, like comics.",

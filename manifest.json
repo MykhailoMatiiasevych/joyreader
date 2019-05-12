@@ -22,8 +22,15 @@
   "content_scripts": [
     {
       "matches": [
-        "*://joyreactor.cc/*",
-        "*://*.reactor.cc/*"
+        "*://*.joyreactor.cc/*",
+        "*://*.reactor.cc/*",
+        "*://*.joyreactor.com/*",
+        "*://*.cookreactor.com/*",
+        "*://*.pornreactor.cc/*",
+        "*://*.fapreactor.com/*",
+        "*://*.safereactor.cc/*",
+        "*://*.jr-proxy.com/*",
+        "*://*.jrproxy.com/*"
       ],
       "js": [
         "browser-polyfill.js",
